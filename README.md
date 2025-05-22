@@ -1,5 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jQ2n5owe)
 # CS 266 Audit Project
-Repository for the CS 266 audit project.
+Repository for the CS 266: AI & Society audit project.
 
-The [main description for your audit project assignment](https://drive.google.com/file/d/1zPx7Vi9-vd2-bvZWG4fngApNEdmHgaeu/view?usp=drive_link) is separately provided. Here, you should develop the needed code and commit and push the parts of the assignment, as detailed in the linked document, that are not your final paper.
+We are auditing Google’s Perspective API, an AI-based tool used to detect harmful or toxic language in online content. The API assigns numerical scores to text based on attributes such as toxicity, insult, threat, and profanity, and is widely used by platforms to moderate user-generated content. Our focus is on evaluating how well the API identifies harmful content in real-world, informal language, particularly in cases where intent is difficult to detect—such as sarcasm, coded language, or internet slang. We are using a labeled dataset of tweets that includes examples of hate speech, offensive language, and neutral content. By comparing the API’s toxicity scores to these labels, we aim to understand how accurately and consistently it handles complex and ambiguous inputs.
